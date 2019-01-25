@@ -1,37 +1,50 @@
 [
   {
-    "description": "  As an internet user\n  In order to find out more about the itunes vote cards app\n  I want to be able to search for information about the itunes vote cards app",
+    "description": "  Login into 'http://the-internet.herokuapp.com/login'\n  User: tomsmith\n  Pass: SuperSecretPassword!",
     "elements": [
       {
-        "id": "searching-for-vote-cards-app;google-search-for-vote-cards-app",
+        "id": "login-using-a-login-webform;login-ok",
         "keyword": "Scenario",
-        "line": 7,
-        "name": "Google search for vote cards app",
+        "line": 6,
+        "name": "Login OK",
         "steps": [
           {
             "arguments": [],
-            "keyword": "When ",
-            "name": "I search Google for \"itunes vote cards app\"",
+            "keyword": "Given ",
+            "name": "I'm at the URL 'http://the-internet.herokuapp.com/login'",
             "result": {
-              "status": "passed",
-              "duration": 4242638110
+              "status": "undefined"
             },
-            "line": 8,
-            "match": {
-              "location": "/Users/victordelbarrio/cucumber/pageObject/step-definitions/google-search-steps.js:18"
-            }
+            "line": 7
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter 'tomsmith' as user and 'SuperSecretPassword!' as password",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click the Login",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "name": "I should see some results",
             "result": {
-              "status": "passed",
-              "duration": 19368220
+              "status": "skipped"
             },
-            "line": 9,
+            "line": 10,
             "match": {
-              "location": "/Users/victordelbarrio/cucumber/pageObject/step-definitions/google-search-steps.js:3"
+              "location": "/Users/richi/repo/pageObject/step-definitions/google-search-steps.js:3"
             }
           },
           {
@@ -39,11 +52,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 149435221
+              "duration": 1260435132
             },
             "hidden": true,
             "match": {
-              "location": "/Users/victordelbarrio/cucumber/pageObject/node_modules/selenium-cucumber-js/runtime/world.js:250"
+              "location": "/Users/richi/repo/pageObject/node_modules/selenium-cucumber-js/runtime/world.js:250"
             }
           }
         ],
@@ -51,11 +64,11 @@
         "type": "scenario"
       }
     ],
-    "id": "searching-for-vote-cards-app",
+    "id": "login-using-a-login-webform",
     "keyword": "Feature",
-    "line": 2,
-    "name": "Searching for vote cards app",
+    "line": 1,
+    "name": "Login using a login webform",
     "tags": [],
-    "uri": "/Users/victordelbarrio/cucumber/pageObject/features/google-search.feature"
+    "uri": "/Users/richi/repo/pageObject/features/loginSample.feature"
   }
 ]

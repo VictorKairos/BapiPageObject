@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="searching-for-vote-cards-app;google-search-for-vote-cards-app" tests="2" failures="0" skipped="0">
+    <testsuite name="login-using-a-login-webform;login-ok" tests="4" failures="0" skipped="4">
         <properties>
-            <property name="URI" value="/Users/victordelbarrio/cucumber/pageObject/features/google-search.feature">
+            <property name="URI" value="/Users/richi/repo/pageObject/features/loginSample.feature">
             </property>
         </properties>
-        <testcase name="When I search Google for &quot;itunes vote cards app&quot;" classname="searching-for-vote-cards-app;google-search-for-vote-cards-app" time="4.24263811">
+        <testcase name="Given I&apos;m at the URL &apos;http://the-internet.herokuapp.com/login&apos;" classname="login-using-a-login-webform;login-ok">
+            <skipped message="">
+            </skipped>
         </testcase>
-        <testcase name="Then I should see some results" classname="searching-for-vote-cards-app;google-search-for-vote-cards-app" time="0.01936822">
+        <testcase name="When I enter &apos;tomsmith&apos; as user and &apos;SuperSecretPassword!&apos; as password" classname="login-using-a-login-webform;login-ok">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I click the Login" classname="login-using-a-login-webform;login-ok">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then I should see some results" classname="login-using-a-login-webform;login-ok">
+            <skipped message="">
+            </skipped>
         </testcase>
     </testsuite>
 </testsuites>
