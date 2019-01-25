@@ -11,40 +11,53 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "name": "I'm at the URL 'http://the-internet.herokuapp.com/login'",
+            "name": "I'm at the URL \"http://the-internet.herokuapp.com/login\"",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 2438418173
             },
-            "line": 7
+            "line": 7,
+            "match": {
+              "location": "/Users/richi/repo/pageObject/step-definitions/loginSteps.js:3"
+            }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "I enter 'tomsmith' as user and 'SuperSecretPassword!' as password",
+            "name": "I enter \"tomsmith\" as user and \"SuperSecretPassword!\" as password",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 171022317
             },
-            "line": 8
+            "line": 8,
+            "match": {
+              "location": "/Users/richi/repo/pageObject/step-definitions/loginSteps.js:7"
+            }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "name": "I click the Login",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 517027208
             },
-            "line": 9
+            "line": 9,
+            "match": {
+              "location": "/Users/richi/repo/pageObject/step-definitions/loginSteps.js:24"
+            }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "I should see some results",
+            "name": "I am logged into the secure area",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 29920713
             },
             "line": 10,
             "match": {
-              "location": "/Users/richi/repo/pageObject/step-definitions/google-search-steps.js:3"
+              "location": "/Users/richi/repo/pageObject/step-definitions/loginSteps.js:34"
             }
           },
           {
@@ -52,7 +65,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1260435132
+              "duration": 92563889
             },
             "hidden": true,
             "match": {

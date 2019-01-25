@@ -6,6 +6,7 @@ module.exports = function () {
         return driver.wait(until.elementsLocated(by.css('div.g')), 10000).then(function(){
 
             // return the promise of an element to the following then.
+            // return driver.findElements(by.css('div.g'));
             return driver.findElements(by.css('div.g'));
         })
         .then(function (elements) {

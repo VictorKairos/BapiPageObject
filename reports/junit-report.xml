@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="login-using-a-login-webform;login-ok" tests="4" failures="0" skipped="4">
+    <testsuite name="login-using-a-login-webform;login-ok" tests="4" failures="0" skipped="0">
         <properties>
             <property name="URI" value="/Users/richi/repo/pageObject/features/loginSample.feature">
             </property>
         </properties>
-        <testcase name="Given I&apos;m at the URL &apos;http://the-internet.herokuapp.com/login&apos;" classname="login-using-a-login-webform;login-ok">
-            <skipped message="">
-            </skipped>
+        <testcase name="Given I&apos;m at the URL &quot;http://the-internet.herokuapp.com/login&quot;" classname="login-using-a-login-webform;login-ok" time="2.438418173">
         </testcase>
-        <testcase name="When I enter &apos;tomsmith&apos; as user and &apos;SuperSecretPassword!&apos; as password" classname="login-using-a-login-webform;login-ok">
-            <skipped message="">
-            </skipped>
+        <testcase name="When I enter &quot;tomsmith&quot; as user and &quot;SuperSecretPassword!&quot; as password" classname="login-using-a-login-webform;login-ok" time="0.171022317">
         </testcase>
-        <testcase name="And I click the Login" classname="login-using-a-login-webform;login-ok">
-            <skipped message="">
-            </skipped>
+        <testcase name="And I click the Login" classname="login-using-a-login-webform;login-ok" time="0.517027208">
         </testcase>
-        <testcase name="Then I should see some results" classname="login-using-a-login-webform;login-ok">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I am logged into the secure area" classname="login-using-a-login-webform;login-ok" time="0.029920713">
         </testcase>
     </testsuite>
 </testsuites>
