@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="searching-for-vote-cards-app;google-search-for-vote-cards-app" tests="2" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/victordelbarrio/cucumber/pageObject/features/google-search.feature">
+            </property>
+        </properties>
+        <testcase name="When I search Google for &quot;itunes vote cards app&quot;" classname="searching-for-vote-cards-app;google-search-for-vote-cards-app" time="4.24263811">
+        </testcase>
+        <testcase name="Then I should see some results" classname="searching-for-vote-cards-app;google-search-for-vote-cards-app" time="0.01936822">
+        </testcase>
+    </testsuite>
+</testsuites>
