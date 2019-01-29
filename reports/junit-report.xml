@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="login-using-a-login-webform;login-ok" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/victordelbarrio/cucumber/BapiPageObject/features/loginSample.feature">
+            </property>
+        </properties>
+        <testcase name="Given I&apos;m at the URL &quot;http://localhost:8000&quot;" classname="login-using-a-login-webform;login-ok" time="1.595620085">
+        </testcase>
+        <testcase name="And I click the Login" classname="login-using-a-login-webform;login-ok" time="0.433220402">
+        </testcase>
+        <testcase name="Then I am logged into the secure area" classname="login-using-a-login-webform;login-ok" time="0.038177592">
+        </testcase>
+    </testsuite>
+    <testsuite name="login-using-a-login-webform;chequeo-rol-ventas" tests="6" failures="1" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/victordelbarrio/cucumber/BapiPageObject/features/loginSample.feature">
+            </property>
+        </properties>
+        <testcase name="Given I&apos;m at the URL &quot;http://localhost:8000/login&quot;" classname="login-using-a-login-webform;chequeo-rol-ventas" time="1.818941701">
+        </testcase>
+        <testcase name="When I enter &quot;VentasBancoA&quot; as user and &quot;secret&quot; as password" classname="login-using-a-login-webform;chequeo-rol-ventas" time="0.409542523">
+        </testcase>
+        <testcase name="And I click the Login rol" classname="login-using-a-login-webform;chequeo-rol-ventas" time="0.450304935">
+        </testcase>
+        <testcase name="Then I am logged into the right rol" classname="login-using-a-login-webform;chequeo-rol-ventas" time="0.031765448">
+        </testcase>
+        <testcase name="And I click the menu rol" classname="login-using-a-login-webform;chequeo-rol-ventas" time="0.071382786">
+        </testcase>
+        <testcase name="Then I am logged into the right menu" classname="login-using-a-login-webform;chequeo-rol-ventas" time="0.032711638">
+            <failure message="AssertionError: expected &apos;&apos; to equal &apos;ISDA Contracts&apos;">AssertionError: expected &apos;&apos; to equal &apos;ISDA Contracts&apos;
+    at /Users/victordelbarrio/cucumber/BapiPageObject/page-objects/heroku-login-secure-area-page.js:26:28
+    at ManagedPromise.invokeCallback_ (/Users/victordelbarrio/cucumber/BapiPageObject/node_modules/selenium-webdriver/lib/promise.js:1384:14)
+    at TaskQueue.execute_ (/Users/victordelbarrio/cucumber/BapiPageObject/node_modules/selenium-webdriver/lib/promise.js:3092:14)
+    at TaskQueue.executeNext_ (/Users/victordelbarrio/cucumber/BapiPageObject/node_modules/selenium-webdriver/lib/promise.js:3075:27)
+    at asyncRun (/Users/victordelbarrio/cucumber/BapiPageObject/node_modules/selenium-webdriver/lib/promise.js:2935:27)
+    at /Users/victordelbarrio/cucumber/BapiPageObject/node_modules/selenium-webdriver/lib/promise.js:676:7
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:160:7)</failure>
+        </testcase>
+    </testsuite>
+</testsuites>
