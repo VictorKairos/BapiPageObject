@@ -1,0 +1,24 @@
+{
+  "name": "e2e-test-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./node_modules/selenium-cucumber-js/index.js",
+  "dependencies": {
+    "selenium-cucumber-js": "^1.6.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "e2e": "./node_modules/selenium-cucumber-js/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VictorKairos/pageObject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VictorKairos/pageObject/issues"
+  },
+  "homepage": "https://github.com/VictorKairos/pageObject#readme"
+}
